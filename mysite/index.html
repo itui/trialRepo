@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <link rel="stylesheet" href="css/style.css">
+	 <link rel="stylesheet" href="css/index.css">
+	  <script src="js/behavior.js"></script> 
+
+	<title>My WebSite</title>
+</head>
+<body>
+<div>
+  <ul class="topnav">
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#contact">Contact</a></li>  
+  </ul>
+</div>
+	<div>
+		<img src="img/light.png" id="geeks"  GFG="250">		
+	</div>	
+
+<div class = "contentOne">	
+ 
+ <p><span id = "name"> Hi, I am Nebiha Amir. </span> I am Web Developer. It's been 2 years, I’m working as freelance web developer. I have completed my first degree in software engineering from Addis Ababa Institution of Technology (AAiT) and focus on learning different programming language. After I complete the course, I wish to work in software engineering. By using the knowledge gained from this course, I have develop several web applications for a different company profile and work with successful major software companies. I can understand programming beyond the constraints of the syntax, and also comprehend the logic behind how you should implement solutions to computing problems.
+ 	 I am highly motivated to learn new thing and get new experience. I believe that the ALX Software Engineering training will allow me to further progress my studies, not only would the university provide me with a positive insight toward the academic aspect of development. <span id="dots"></span><span id="more">As I have already gained a vast amount of hands on experience from within the Software development, I’d like to take my experience and further develop it with academics which ALX would provide me with. I believe this program at ALX will allow me to further progress my studies, not only would the university provide me with a positive insight toward the academic aspect of software developer.</span></p>
+
+	<button onclick="myFunction()" id="myBtn">Read more</button> 
+</div>
+<section>
+	<button class = "zoom" type="button" onclick="zoomin()">
+		+
+	</button>
+	
+	<button class = "zoom" type="button" onclick="zoomout()">
+		-
+	</button>
+</section>
+
+<div class = "contentTwo"> 	</div>
+
+<!-- </div> -->
+<div>
+	<div class="timeline" id = "about">
+  <div class="container left">
+    <div class="content">
+      <h2>Mission</h2>
+      <p>To be a person who is responsible, trustworthy, a communicator, entertaining, generous, a leader and a speaker. Its my mission to be professional software engineer and to have impacted the lives of African peoples.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Community Impact</h2>
+      <p> Benefits the society by building advances website/applications and makes tasks easier to be done which can help the society in many ways. 
+      </p>
+      
+    </div>
+  </div> 
+  <div class="container left">
+    <div class="content">
+      <h2>Goals</h2>
+      <p>Build my own software development company which will offer golden opportunity for other software developers and contribute open source software for the community. Provide free software development mentor for students.</p>
+    </div>
+  </div>
+ 
+</div>
+</div>
+
+
+<footer id = "contact">
+  <p>Nebiha Amir<br>
+  <a href="mailto:nebihaamirfeb2@gmail.com">nebihaamirfeb2@gmail.com</a></p>
+  <a href="#" class="fa fa-facebook"></a>
+  <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&layout=button_count&size=small&width=98&height=20&appId" width="98" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+
+</footer>
+
+
+
+</body>
+
+</html>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+} 
+</script>
+

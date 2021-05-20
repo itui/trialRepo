@@ -1,0 +1,85 @@
+body, html {
+  height: 100%;
+
+}
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-right: 100px;
+  /*background-color: #add8e6;*/
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #ffa2ab;}
+
+ul.topnav li a.active {background-color: #ffa2ab;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+img {
+  float: left;
+}
+p {
+   text-align: center;
+
+   margin-right: 50px;
+   /*margin-left: 100px;*/
+}
+.contentOne{
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  /*margin-right: 50px;*/
+  /*margin-left: 50px;*/
+  background-color: #f3f9b8;
+  /*padding-left: 50px: */
+}
+.contentTwo{
+   margin-top: 250px;
+   margin-right: 250px;
+   margin-left: 250px;
+   position: center;
+   display: block;
+}
+.para{
+  color: white;
+}
+#more {display: none;}
+#myBtn{
+  background-color: #de8290;
+  /*position: center;*/
+  align-content: center;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 15px;
+  margin: 4px 2px;
+  margin-left: 300px;
+  /*opacity: 1;*/
+  /*transition: 0.3s;*/
+  border-radius: 12%;
+}
+#myBtn:hover {opacity: 0.7}
+#name{
+  text-decoration: bold;
+
+}
